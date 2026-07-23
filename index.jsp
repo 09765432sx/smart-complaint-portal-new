@@ -18,7 +18,7 @@
             <h2>Welcome Back</h2>
             <p class="subtitle">Please enter your details to sign in</p>
 
-            <form action="LoginServlet" method="POST">
+            <form action="customer/customerDashboard.jsp" method="POST">
                 <div class="form-group">
                     <label>Email Address</label>
                     <input type="email" name="email" class="form-control" placeholder="user@example.com" required>
